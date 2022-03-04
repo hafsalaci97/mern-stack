@@ -27,7 +27,7 @@ function FormColor(props){
         }
     ])
     }
-
+    //clear on successful submit
     const createColor = (e) =>{
         const newColor = {color};
         setColor("");
